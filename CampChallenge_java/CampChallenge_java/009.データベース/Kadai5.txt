@@ -1,0 +1,3 @@
+//‰Û‘è‚T
+
+SELECT * FROM profiles WHERE age >= 25;
