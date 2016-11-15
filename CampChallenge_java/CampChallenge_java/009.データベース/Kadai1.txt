@@ -1,0 +1,11 @@
+//â€ëËÇP
+
+INSERT INTO profiles VALUES(1,'ìcíÜ é¿','012-345-6789',30,'1994-02-01');
+
+INSERT INTO profiles VALUES(2,'óÈñÿ ñŒ','090-1122-3344',37,'1987-08-12');
+
+INSERT INTO profiles VALUES(3,'óÈñÿ é¿','080-5566-7788',24,'2000-12-24');
+
+INSERT INTO profiles VALUES(4,'ç≤ì° ê¥','012-0987-6543',19,'2005-08-01');
+
+INSERT INTO profiles VALUES(5,'çÇã¥ ê¥','090-9900-1234',24,'2000-12-24');
