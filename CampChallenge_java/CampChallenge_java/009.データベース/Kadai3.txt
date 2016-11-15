@@ -1,0 +1,3 @@
+//â€ëËÇR
+
+SELECT * FROM profiles WHERE name = 'çÇã¥ ê¥';
