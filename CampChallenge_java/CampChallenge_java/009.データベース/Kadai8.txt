@@ -1,0 +1,5 @@
+//‰Û‘è‚W
+
+DELETE FROM profiles WHERE birthday = '2000-12-24';
+
+SELECT * FROM profiles;
