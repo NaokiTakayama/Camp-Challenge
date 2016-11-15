@@ -1,0 +1,5 @@
+//‰Û‘è‚V
+
+UPDATE profiles SET name = '‹g“c –Î' WHERE profilesID = 2;
+
+SELECT * FROM profiles WHERE profilesID = 2;
