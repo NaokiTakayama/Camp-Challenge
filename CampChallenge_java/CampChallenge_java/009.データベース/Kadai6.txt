@@ -1,0 +1,3 @@
+//‰Û‘è‚U
+
+SELECT * FROM profiles WHERE name LIKE '%ŽÀ%';
