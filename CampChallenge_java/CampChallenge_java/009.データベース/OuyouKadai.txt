@@ -1,0 +1,47 @@
+//âûópâ€ëË
+
+
+//department ÇÃê›íË
+CREATE TABLE department (departmentID int,departmentName varchar(255),INDEX(departmentID),PRIMARY KEY(departmentID)) engine = innoDB;
+
+INSERT INTO department VALUES(1,'äJî≠ïî');
+
+INSERT INTO department VALUES(2,'âcã∆ïî');
+
+INSERT INTO department VALUES(3,'ëçñ±ïî');
+
+
+//station ÇÃê›íË
+CREATE TABLE station (stationID int,stationName varchar(255),INDEX(stationID),PRIMARY KEY(stationID)) engine = innoDB;
+
+INSERT INTO station VALUES(1,'ã„íiâ∫');
+
+INSERT INTO station VALUES(2,'âiìcí¨');
+
+INSERT INTO station VALUES(3,'èaíJ');
+
+INSERT INTO station VALUES(4,'ê_ï€í¨');
+
+INSERT INTO station VALUES(5,'è„à‰ëê');
+
+
+//user ÇÃê›íË
+CREATE TABLE user (userID int,name varchar(255),tell varchar(255),age int,birthday date,departmentID int,stationID int,
+PRIMARY KEY(userID),index(departmentID),index(stationID),
+FOREIGN KEY(departmentID) REFERENCES department(departmentID),
+FOREIGN KEY(stationID) REFERENCES station(stationID)) engine =InnoDB;
+
+INSERT INTO user VALUES(1,'ìcíÜ é¿','012-345-6789',30,'1994-02-01',3,1);
+
+INSERT INTO user VALUES(2,'óÈñÿ ñŒ','090-1122-3344',37,'1987-08-12',3,4);
+
+INSERT INTO user VALUES(3,'óÈñÿ é¿','080-5566-7788',24,'2000-12-24',2,5);
+
+INSERT INTO user VALUES(4,'ç≤ì° ê¥','012-0987-6543',19,'2005-08-01',1,5);
+
+INSERT INTO user VALUES(5,'çÇã¥ ê¥','090-9900-1234',24,'2000-12-24',3,5);
+
+
+
+
+
