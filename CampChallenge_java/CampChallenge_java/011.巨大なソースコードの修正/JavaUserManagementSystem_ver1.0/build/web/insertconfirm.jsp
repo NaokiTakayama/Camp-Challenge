@@ -42,11 +42,12 @@
         <%=emptyComment("電話番号",ifType(Beans.getTell()))%>
         <%=emptyComment("自己紹介文",ifType(Beans.getComment()))%>
 
-    
+    <%}%>
+    <br><br>
         <form action="insert" method="POST">
             <input type="submit" name="no" value="登録画面に戻る">
         </form>
-    <%}%>    
+        
         <br>
         <%=JumsHelper.getInstance().home()%>
     </body>
